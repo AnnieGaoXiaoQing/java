@@ -1,0 +1,39 @@
+1、三代语言：机器语言、汇编语言、高级语言
+    机器语言：+1300011111
+    汇编语言：LOAD/ADD
+    高级语言：C = A + B
+2、核心优势：跨平台/可移植性
+   操作系统不同
+   例如：C++根据不同的厂商，int类型有时候是16，有时候是32，非常麻烦
+3、三个版本含义
+    JavaSE（Java Standard Edition）:标准版，定位在个人计算机上的应用（Word等等）
+    JavaEE（Java Enterprise Edition）：企业版，定位在服务端的应用
+    javaME(Java Micro Edition):微型版，定位在消费性电子产品的应用上（微波炉），市场少
+    JAVAEE：完全包括JavaSE
+    JavaME：有一部分包括JavaEE、JavaSE
+4、Java的特性/优势
+   跨平台/可移植性
+   安全性：分布式、防篡改
+   面向对象：
+   简单
+   高性能：已提高（虚拟机优化、语言的优化）
+   分布式
+   多线程
+   健壮性：异常处理机制
+5、java：编译型 + 解释型
+   编译器：java文件编译成字节码文件（.class）
+   JRE: 利用虚拟机解释器，执行.class文件
+   JRE包括JVM
+6、JVM、JRE
+    JVM(Java Virtual Machine)就是一个虚拟的用于执行btyecode字节码的“虚拟计算机”
+    JRE(Java Runtime Environment)：java运行时环境，java虚拟机、库函数、运行java应用程序所必需的的文件
+    JDK(Java Development kit):java工具包，包含jre，以及增加编译器和调试器等用于程序开发的文件
+    JDK 包含 JRE
+    JRE 包含 JVM
+7、环境变量Path配置
+    环境变量：具有特定名字的对象，它包含了一个或多个应用程序所将使用到的信息
+    JAVA_HOME变量：说明是JDK的安装目录，并不是bin目录
+    PATH变量: 要找到Bin目录，%JAVA_HOME%\bin
+8、win10环境变量配置
+    控制面板\系统和安全\系统
+9、

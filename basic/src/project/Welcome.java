@@ -6,7 +6,14 @@ package project;
  * 3、结束标记：分号
  */
 public class Welcome {
+
+    int a; //成员变量，从属于对象；成员变量会自动初始化
+    static int size; // 静态变量，从属于类
+
     public static void main(String[] args){
         System.out.println("我是高晓青");
+
+        int gao = 1; // 局部变量，从属于语句块/方法
+        System.out.print(gao);
     }
 }

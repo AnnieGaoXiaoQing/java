@@ -1,0 +1,15 @@
+流程控制：控制语句执行顺序
+1、顺序结构:表示区间时使用
+    if
+    if-else
+    if-else if - else
+2、选择结构 ： 表达式值不同时使用
+    switch(表达式):
+    case 值1：
+    [break]
+    default:
+        默认语句
+     注：
+        case标签，在JDK1.5之前必须是整数（long类型以外）或者枚举。JDK1.7之后允许使用字符串（String）
+3、循环结构
+

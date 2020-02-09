@@ -1,4 +1,4 @@
-package project;
+package basic;
 
 /**
  * 三目运算符

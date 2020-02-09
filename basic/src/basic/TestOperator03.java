@@ -1,4 +1,4 @@
-package project;
+package basic;
 
 /**
  * 字符串运算符(+:有String类型则成为字符串运算符)

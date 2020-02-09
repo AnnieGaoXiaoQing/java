@@ -1,4 +1,4 @@
-package project;
+package basic;
 
 /**
  * 1、java大小写敏感

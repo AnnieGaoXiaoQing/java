@@ -1,4 +1,4 @@
-package project;
+package basic;
 
 /**
  * 自动类型转换

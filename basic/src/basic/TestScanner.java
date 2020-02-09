@@ -1,5 +1,4 @@
-package project;
-import javax.swing.plaf.synth.SynthOptionPaneUI;
+package basic;
 import java.util.Scanner;
 public class TestScanner {
     public static void main(String[] args) {

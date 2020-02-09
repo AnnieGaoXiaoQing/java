@@ -1,4 +1,4 @@
-package project;
+package basic;
 
 public class TestIf {
 

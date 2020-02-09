@@ -1,16 +1,19 @@
-package project;
-import java.awt.*;
+package basic;
+
 import javax.swing.*;
+import java.awt.*;
 
-public class BallGame extends  JFrame{
-
+/**
+ * 任意跑
+ */
+public class BallGame2 extends JFrame {
     // 加载图片
     Image ball = Toolkit.getDefaultToolkit().getImage("/images/ball.png");
     Image desk = Toolkit.getDefaultToolkit().getImage("/images/desk.pnd");
 
     double x = 100; //小球的横坐标
     double y = 100; // 小球的纵坐标
-    boolean right = true; // 方向
+
 
 
     // 画窗口的方法
@@ -19,20 +22,7 @@ public class BallGame extends  JFrame{
         graphics.drawImage(desk,0,0,null);
         graphics.drawImage(ball,(int)x,(int)y,null);
 
-        if(right){
-            x = x + 10;
-        }else {
-            x = x - 10;
-        }
 
-        // 856是窗口宽度，40是桌子边框的宽度，30是小球的直径
-        if(x > 856 - 40 -30){
-            right = false;
-        }
-
-        if(x < 40){ // 40是桌子边框的宽度
-            right = true;
-        }
     }
 
     // 窗口加载
@@ -57,5 +47,4 @@ public class BallGame extends  JFrame{
         BallGame ballGame = new BallGame();
         ballGame.lauchFrame();
     }
-
 }

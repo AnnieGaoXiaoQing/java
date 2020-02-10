@@ -1,0 +1,9 @@
+1、包管理
+    包名：域名倒着写，再加上模块名，方便管理（com.jd.order）
+    java.lang包：不需要引用，直接可以用
+2、静态导入
+    import static java.lang.Math.*;
+    原来：Math.PI
+    现在：PI
+3、instance of
+

@@ -10,9 +10,9 @@ public class TestExtends {
         Student student = new Student("高晓青", 11, "计算机");
         System.out.println("姓名 = " + student.name);
 
-        System.out.println(student instanceof Student);
-        System.out.println(student instanceof Person);
-        System.out.println(student instanceof Object);
+        System.out.println(student instanceof Student);   //true
+        System.out.println(student instanceof Person);  //true
+        System.out.println(student instanceof Object);  //true
     }
 }
 

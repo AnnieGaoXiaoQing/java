@@ -1,5 +1,9 @@
 package object;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * 测试封装
  */
@@ -18,9 +22,17 @@ public class TestFengZhuang {
     }
 
     public static void main(String[] args) {
-        TestFengZhuang testFengZhuang = new TestFengZhuang();
+        /*TestFengZhuang testFengZhuang = new TestFengZhuang();
         testFengZhuang.setAge(-111);
-        System.out.println(testFengZhuang);
+        System.out.println(testFengZhuang);*/
+
+        List<Integer> list = Arrays.asList(10, 12);
+        if(list.contains(2)){
+            System.out.println("包括");
+        }else{
+            System.out.println("不包括");
+        }
+
     }
 }
 

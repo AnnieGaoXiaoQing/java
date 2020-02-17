@@ -5,5 +5,10 @@
     import static java.lang.Math.*;
     原来：Math.PI
     现在：PI
-3、instance of
+3、instance of ： 判断是否为同一对象
+4、final:
+   修饰变量：被他修饰的变量不可改变
+   修饰方法：该方法不可被子类重写，但是可以被重载
+   修饰类：修饰的类不能被继承（Math、String）
+5、
 
